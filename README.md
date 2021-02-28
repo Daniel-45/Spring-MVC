@@ -449,7 +449,7 @@ Para solucionar este problema y refrescar los directorios automáticamente hay q
 
 2. En el árbol de elementos que aparece a la izquierda, accede a General/Workspace
 
-3. Ahí encontrarás la casilla **Refresh automatically** que aparece desactivada por defecto. Actívala.
+3. Ahí encontrarás la casilla **Refresh using native hooks or polling** que aparece desactivada por defecto. Actívala.
 
 !["](/src/main/resources/static/images/refrescar-directorios-eclipse.png)
 
