@@ -437,6 +437,22 @@ INSERT INTO `perfiles_usuarios` VALUES (3,3);
 
 ```
 
- ## Licencia
+## Subida de archivos
+
+Lo mejor en el diseño de aplicaciones Web es no guardar los archivos en un carpeta relativa a la aplicación. Es mejor crear una carpeta fuera del contexto de la aplicación web y tener una mejor administración de estos recursos.  
+
+En este caso los archivos se guardan en una carpeta relativa a la aplicación y Eclipse no reconoce automáticamente si se han creado archivos o carpetas dentro del proyecto que no hayan sido creadas por el IDE.
+
+Para solucionar este problema y refrescar los directorios automáticamente hay que hacer la siguiente configuración:
+
+1. Accede al menú: Window/Preferences
+
+2. En el árbol de elementos que aparece a la izquierda, accede a General/Workspace
+
+3. Ahí encontrarás la casilla **Refresh automatically** que aparece desactivada por defecto. Actívala.
+
+!["](/src/main/resources/static/images/refrescar-directorios-eclipse.png)
+
+## Licencia
 
 __GNU GENERAL PUBLIC LICENSE__, si desea saber más, visite el fichero LICENSE
